@@ -14,7 +14,6 @@ public class OperatorsAndPrecedence {
         System.out.println("a > b: " + (a > b));
         System.out.println("a < b: " + (a < b));
         System.out.println("a == b: " + (a == b));
-
         // Logical Operators
         System.out.println("(a < b) && (b < c): " + ((a < b) && (b < c)));
         System.out.println("(a < b) || (b > c): " + ((a < b) || (b > c)));
