@@ -3,7 +3,6 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class Fileop {
     public static void main(String[] args) {
         String filename = "C:\\Users\\Administrator\\Desktop\\file.txt";
