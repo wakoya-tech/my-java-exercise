@@ -7,7 +7,6 @@ class Animal {
     public Animal(String name) {
         this.name = name;
     }
-
     // Method
     public void makeSound() {
         System.out.println(" Animal sound");
