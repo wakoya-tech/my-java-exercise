@@ -1,4 +1,5 @@
 public class Finally {
+
     public static void main(String[] args) {
         try {
             int data = 25 / 5;
