@@ -4,7 +4,6 @@ public class JavaApplication3 {
     public static void main(String[] args) {
         String textFile = "C:\\Users\\rabbi\\Desktop\\file\\file3.txt";
         String binaryFile = "C:\\Users\\rabbi\\Desktop\\file\\binaryfile.dat";
-
         // 1. Write text to a file using BufferedWriter
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(textFile))) {
             writer.write("Hello, this is a text file.\n");
