@@ -10,13 +10,10 @@ public class Animal {
         this.name = name;
         this.id = id;
         this.gpa = gpa;
-
     }
-
     public void dispalyinfo() {
         System.out.println(" student name " + name + "id " + id + "gpa" + gpa);
     }
-
     public static void main(String[] args) 
     {
         Animal student = new Animal(wakoya, ru1046, 3.6);
